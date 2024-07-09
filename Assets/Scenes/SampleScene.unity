@@ -1413,9 +1413,17 @@ PrefabInstance:
       value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: 778173735737136837, guid: ae170e6d0af0b1140886657b2e66f857, type: 3}
+      propertyPath: idleFrame
+      value: 
+      objectReference: {fileID: -127460274, guid: 74cb1730b6167334095f7530a68e9813, type: 3}
+    - target: {fileID: 778173735737136837, guid: ae170e6d0af0b1140886657b2e66f857, type: 3}
       propertyPath: jumpForce
       value: 1500
       objectReference: {fileID: 0}
+    - target: {fileID: 778173735737136837, guid: ae170e6d0af0b1140886657b2e66f857, type: 3}
+      propertyPath: anotherFrame
+      value: 
+      objectReference: {fileID: 115379975, guid: 74cb1730b6167334095f7530a68e9813, type: 3}
     - target: {fileID: 1912745205481284874, guid: ae170e6d0af0b1140886657b2e66f857, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.38

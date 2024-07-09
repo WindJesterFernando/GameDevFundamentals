@@ -27,7 +27,7 @@ public class PlayerScript : MonoBehaviour
         // TODO: Set the reference for CapsuleCollider2D.
 
 
-        
+        GetComponentInChildren<SpriteRenderer>().sprite = anotherFrame;
     }
 
     void Update()

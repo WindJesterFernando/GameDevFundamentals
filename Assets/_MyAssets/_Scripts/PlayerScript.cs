@@ -15,12 +15,19 @@ public class PlayerScript : MonoBehaviour
     private Rigidbody2D rb;
     // TODO: Add the reference for CapsuleCollider2D.
 
+
+    [SerializeField] Sprite idleFrame;
+    [SerializeField] Sprite anotherFrame;
+
     void Start()
     {
         an = GetComponentInChildren<Animator>();
         isGrounded = false; // Always start in air.
         rb = GetComponent<Rigidbody2D>();
         // TODO: Set the reference for CapsuleCollider2D.
+
+
+        
     }
 
     void Update()
@@ -64,6 +71,9 @@ public class PlayerScript : MonoBehaviour
         //
         //
         //
+
+
+
     }
 
         private void GroundedCheck()

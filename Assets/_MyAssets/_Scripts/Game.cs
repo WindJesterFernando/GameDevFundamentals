@@ -58,15 +58,22 @@ public class Game : MonoBehaviour
 //load new music track
 
 
+//animate sonic
+    //store frames
+    
+    //change frames
+    //conditions for each animation
+    //time for each frame
+
 
 
 //TODO:
-//animate sonic
+
+
+
+
 //spawn obstacles
 //Obstacle shapes: triangle, circle, square
-
-
-
 //scrolling forground
 
 //????Add hazard tiles????

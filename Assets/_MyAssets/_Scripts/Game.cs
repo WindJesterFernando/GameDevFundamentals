@@ -29,15 +29,22 @@ public class Game : MonoBehaviour
         SOMA.AddSound("Jump", Resources.Load<AudioClip>("jump"), SoundManager.SoundType.SOUND_SFX);
         SOMA.AddSound("Roll", Resources.Load<AudioClip>("roll"), SoundManager.SoundType.SOUND_SFX);
         SOMA.AddSound("StillDre", Resources.Load<AudioClip>("StillDre"), SoundManager.SoundType.SOUND_MUSIC);
-        // TODO: Load the new music track.
-        // TODO: Play the new music track. 
+        
+
+        SOMA.AddSound("I_Ran", Resources.Load<AudioClip>("I_Ran"), SoundManager.SoundType.SOUND_MUSIC);
+        SOMA.AddSound("Battle", Resources.Load<AudioClip>("Battle"), SoundManager.SoundType.SOUND_MUSIC);
+        
+        
+
+        SOMA.PlayMusic("StillDre");
+        
     }
 }
 
 
 
 
-
+//DONE:
 //change tiles to whatever-whatever
 //add background
 //setup background
@@ -47,11 +54,16 @@ public class Game : MonoBehaviour
 //fix gaps
 //make background loop
 //make loop seamless
+//play music
+//load new music track
 
 
+
+
+//TODO:
 //animate sonic
-//music
-//sound on jump
+//spawn obstacles
+//Obstacle shapes: triangle, circle, square
 
 
 
